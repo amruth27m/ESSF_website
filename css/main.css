@@ -1,0 +1,62 @@
+
+#page-wrapper {
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+    padding-top: 0px;
+}
+
+#header-wrapper {
+    width: 100%;
+    height: 40px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#logo-ESSF {
+    height: 100%;
+    float: left;
+}
+
+#header-ESSF {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content {
+    font-size: 16px;
+    color: darkcyan;
+}
+
+.representative-profile {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+#bank-account-details-ESSF {
+    font-weight: 600;
+}
+
+body {
+    padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #page-wrapper {
+        padding: 0px;
+    }
+    #header-ESSF {
+        font-size: 18px;
+    }
+    
+    .content{
+        font-size: 14px;
+    }
+}
+
