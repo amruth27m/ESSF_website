@@ -42,6 +42,14 @@
     font-weight: 600;
 }
 
+#make-red{
+	color: red;
+}
+
+#make-green{
+	color: green;
+}
+
 body {
     padding: 0px;
 }
